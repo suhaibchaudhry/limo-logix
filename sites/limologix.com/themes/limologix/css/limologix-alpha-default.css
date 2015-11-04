@@ -4,15 +4,6 @@
 @import url(//fonts.googleapis.com/css?family=Gentium+Basic:400,700);
 /* Overline From Left */
 /* End Variables & Mixins */
-.front .zone-midzone-wrapper .region-midzone-first {
-  background: url(../images/meetourdoctors.png);
-  background-size: contain;
-  min-height: 280px;
-  background-repeat: no-repeat;
-  background-position: right; }
-  .front .zone-midzone-wrapper .region-midzone-first .block {
-    margin: 30px 0 0 0; }
-
 #region-user-second {
   background-color: #D9B259;
   width: initial; }
@@ -37,8 +28,8 @@
   float: left;
   width: 50%; }
   #zone-midzone3-wrapper .webform-client-form .webform-component--contact-info .webform-contact-phone-wrapper, #zone-midzone3-wrapper .webform-client-form .webform-component--contact-info .webform-contact-address-wrapper, #zone-midzone3-wrapper .webform-client-form .webform-component--contact-info .webform-contact-fax-wrapper, #zone-midzone3-wrapper .webform-client-form .webform-component--contact-info .webform-contact-email-wrapper {
-    float: left;
-    width: 50%;
+    float: inherit;
+    width: 100%;
     margin: 0 0 60px 0;
     border-bottom: none; }
     #zone-midzone3-wrapper .webform-client-form .webform-component--contact-info .webform-contact-phone-wrapper .webform-contact-phone-title, #zone-midzone3-wrapper .webform-client-form .webform-component--contact-info .webform-contact-phone-wrapper .webform-contact-fax-title, #zone-midzone3-wrapper .webform-client-form .webform-component--contact-info .webform-contact-phone-wrapper .webform-contact-address-title, #zone-midzone3-wrapper .webform-client-form .webform-component--contact-info .webform-contact-phone-wrapper .webform-contact-email-title, #zone-midzone3-wrapper .webform-client-form .webform-component--contact-info .webform-contact-address-wrapper .webform-contact-phone-title, #zone-midzone3-wrapper .webform-client-form .webform-component--contact-info .webform-contact-address-wrapper .webform-contact-fax-title, #zone-midzone3-wrapper .webform-client-form .webform-component--contact-info .webform-contact-address-wrapper .webform-contact-address-title, #zone-midzone3-wrapper .webform-client-form .webform-component--contact-info .webform-contact-address-wrapper .webform-contact-email-title, #zone-midzone3-wrapper .webform-client-form .webform-component--contact-info .webform-contact-fax-wrapper .webform-contact-phone-title, #zone-midzone3-wrapper .webform-client-form .webform-component--contact-info .webform-contact-fax-wrapper .webform-contact-fax-title, #zone-midzone3-wrapper .webform-client-form .webform-component--contact-info .webform-contact-fax-wrapper .webform-contact-address-title, #zone-midzone3-wrapper .webform-client-form .webform-component--contact-info .webform-contact-fax-wrapper .webform-contact-email-title, #zone-midzone3-wrapper .webform-client-form .webform-component--contact-info .webform-contact-email-wrapper .webform-contact-phone-title, #zone-midzone3-wrapper .webform-client-form .webform-component--contact-info .webform-contact-email-wrapper .webform-contact-fax-title, #zone-midzone3-wrapper .webform-client-form .webform-component--contact-info .webform-contact-email-wrapper .webform-contact-address-title, #zone-midzone3-wrapper .webform-client-form .webform-component--contact-info .webform-contact-email-wrapper .webform-contact-email-title {
@@ -70,9 +61,9 @@
   width: 100%; }
   .zone-content .region-sidebar-second .block-testimonial-block-1 .views-field-field-client-picture img {
     border-radius: 62px;
-    border: 5px solid #C9C1C1; }
+    border: 5px solid #555; }
 .zone-content .region-sidebar-second .block-testimonial-block-1 .views-field-body, .zone-content .region-sidebar-second .block-testimonial-block-1 .views-field-field-name, .zone-content .region-sidebar-second .block-testimonial-block-1 .views-field-field-client-title {
-  background: #C9C1C1;
+  background: #555;
   padding: 10px; }
 .zone-content .region-sidebar-second .block-testimonial-block-1 h2 {
   text-align: center;

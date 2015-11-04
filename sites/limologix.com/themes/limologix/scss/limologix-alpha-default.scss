@@ -5,20 +5,6 @@
 @import "_mixins.scss";
 /* End Variables & Mixins */
 
-.front {
-  .zone-midzone-wrapper {
-    .region-midzone-first {
-      background: url(../images/meetourdoctors.png);
-      background-size: contain;
-      min-height: 280px;
-      background-repeat: no-repeat;
-      background-position: right;
-      	.block {
-      		margin: 30px 0 0 0;
-      	}
-    }
-  }
-}
 
 #region-user-second {
   background-color: #D9B259;
@@ -56,8 +42,8 @@
       float: left;
       width: 50%;
         .webform-contact-phone-wrapper, .webform-contact-address-wrapper, .webform-contact-fax-wrapper, .webform-contact-email-wrapper {
-          float: left;
-          width: 50%;
+          float: inherit;
+          width: 100%;
           margin: 0 0 60px 0;
           border-bottom: none;
 
@@ -86,7 +72,7 @@
         font-size: 15px;
     }
     }
-    
+
   }
 }
 
@@ -106,11 +92,11 @@
         width: 100%;
           img {
             border-radius: 62px;
-            border: 5px solid #C9C1C1;
+            border: 5px solid #555;
           }
         }
         .views-field-body, .views-field-field-name, .views-field-field-client-title {
-          background: #C9C1C1;
+          background: #555;
           padding: 10px;
       }
         h2 {
@@ -153,13 +139,13 @@
 
 .zone-footer {
   .region-footer-second {
-    .block { 
+    .block {
       float: right;
       margin: 0 0 15px 0;
       font-size: 12px;
     }
   }
-} 
+}
 
 .region-footer-first {
   .region-footer-first-inner {
@@ -196,7 +182,7 @@
 
 //Locations
 
-.node-type-locations { 
+.node-type-locations {
   .zone-content {
     .region-content {
       position: relative;
@@ -230,7 +216,7 @@
               }
         }
       }
-  } 
+  }
  }
 }
 
@@ -333,11 +319,11 @@
       }
     }
   }
-} 
+}
 
 //Location Page
 
-.node-type-locations { 
+.node-type-locations {
   .zone-content {
     .region-content {
       #page-title {
@@ -366,7 +352,7 @@
               }
         }
       }
-  } 
+  }
  }
 }
 
@@ -376,7 +362,7 @@
   }
   .group-right {
     width: 25%;
-  }  
+  }
 }
 
 .block-views-clinic-slideshow-block {

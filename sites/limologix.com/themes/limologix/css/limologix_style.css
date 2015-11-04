@@ -27,7 +27,7 @@ body {
   margin-top: 0; }
 
 #zone-user-wrapper {
-  background: #DCB55A;
+  background: #C32633;
   line-height: 34px;
   height: 40px;
   z-index: 500; }
@@ -40,9 +40,11 @@ body {
   #zone-user-wrapper p {
     color: #fff; }
 
-#zone-preface-wrapper p, #zone-preface-wrapper h2.block-title {
+#zone-preface-wrapper #zone-preface {
+  background: #fff; }
+#zone-preface-wrapper p, #zone-preface-wrapper h2 {
   text-align: center;
-  color: #015383; }
+  color: #555; }
 #zone-preface-wrapper h2.block-title {
   font-weight: bold;
   font-size: 25px;
@@ -69,7 +71,7 @@ body {
     -moz-osx-font-smoothing: grayscale;
     position: relative;
     overflow: hidden;
-    background-color: #095480;
+    background-color: #555;
     padding: 8px;
     color: #fff; }
     #zone-preface-wrapper div.read-more-button a:before {
@@ -79,7 +81,7 @@ body {
       left: 0;
       right: 100%;
       top: 0;
-      background: #2098D1;
+      background: #9a9a9a;
       height: 4px;
       -webkit-transition-property: right;
       transition-property: right;
@@ -92,6 +94,9 @@ body {
 
 .zone-wrapper .zone-header {
   width: 100%; }
+  .zone-wrapper .zone-header #block-md-slider-front-page-slider {
+    box-shadow: 0 0px 11px rgba(111, 111, 111, 0.3);
+    margin-bottom: 10px; }
   .zone-wrapper .zone-header .region-header-first {
     width: 100%;
     margin: 0; }
@@ -112,23 +117,24 @@ body {
     .zone-branding .block-superfish .menu li {
       background: transparent; }
       .zone-branding .block-superfish .menu li a {
+        color: #555;
         border: none; }
       .zone-branding .block-superfish .menu li a:hover, .zone-branding .block-superfish .menu li a:focus {
         color: #fff;
-        background: #073A66;
+        background: #c32633;
         border-radius: 3px; }
 
 .zone-postscript-wrapper {
-  background: #dcb65b; }
+  background: #FFF; }
   .zone-postscript-wrapper .block-front-page-testimonials-block h2 {
-    color: #005382;
+    color: #C32633;
     font-size: 50px; }
   .zone-postscript-wrapper .block-front-page-testimonials-block .views-row {
     width: 50%;
     float: left; }
     .zone-postscript-wrapper .block-front-page-testimonials-block .views-row .views-field-field-name {
       font-size: 18px;
-      color: #005382;
+      color: #555;
       font-weight: 400; }
     .zone-postscript-wrapper .block-front-page-testimonials-block .views-row .views-field-field-client-title {
       font-style: italic;
@@ -139,7 +145,7 @@ body {
       float: left;
       padding: 15px;
       color: #fff;
-      background: #005382;
+      background: #555;
       border-radius: 4px;
       margin: 10px 20px 10px 0; }
 
@@ -163,16 +169,16 @@ body {
     .block-menu-menu-footer-menu .menu li a {
       color: #fff; }
 
-.franchise-icon {
-  background: url(/sites/zmedispa.com/files/franchise-icon.png); }
+.findadriver-icon {
+  background: url(/sites/limologix.com/files/findadriver-icon.png); }
 
-.services-icon {
-  background: url(/sites/zmedispa.com/files/services-icon.png); }
+.howitworks-icon {
+  background: url(/sites/limologix.com/files/howitworks-icon.png); }
 
 .aboutus-icon {
-  background: url(/sites/zmedispa.com/files/aboutus-icon.png); }
+  background: url(/sites/limologix.com/files/aboutus-icon.png); }
 
-.franchise-icon, .services-icon, .aboutus-icon {
+.findadriver-icon, .howitworks-icon, .aboutus-icon {
   background-repeat: no-repeat;
   text-indent: -9999px;
   height: 160px;
@@ -183,14 +189,15 @@ body {
 .zone-midzone3-wrapper {
   background: #c9c1c1; }
   .zone-midzone3-wrapper h2 {
-    font-size: 50px; }
+    font-size: 50px;
+    color: #fff; }
 
-.front .zone-midzone-wrapper {
+.zone-midzone-wrapper {
   margin-top: 20px;
-  background: #ced6e1; }
-  .front .zone-midzone-wrapper .region {
-    padding-bottom: 20px; }
-  .front .zone-midzone-wrapper .block-block h2 {
+  background: #212121; }
+  .zone-midzone-wrapper .region {
+    padding: 30px; }
+  .zone-midzone-wrapper .block-block h2 {
     color: #005382;
     font-size: 50px; }
 
@@ -216,7 +223,7 @@ body {
     left: 0;
     right: 100%;
     top: 0;
-    background: #2098D1;
+    background: #9a9a9a;
     height: 4px;
     -webkit-transition-property: right;
     transition-property: right;
@@ -229,7 +236,7 @@ body {
 
 .zone-preface-wrapper .block h2, .zone-midzone3-wrapper .block h2 {
   text-align: center;
-  color: #10557E;
+  color: #fff;
   margin: 0; }
 
 .zone-footer .region-footer-second .block {
@@ -354,7 +361,7 @@ h1#page-title {
 .node-type-page .zone-content .region-content {
   position: relative; }
 .node-type-page .zone-header2-wrapper {
-  background: url(/sites/zmedispa.com/files/about-us-slide.jpg);
+  background: url(/sites/limologix.com/files/about-us-slide.png);
   width: 100%;
   background-position: center; }
   .node-type-page .zone-header2-wrapper .zone {
@@ -363,7 +370,7 @@ h1#page-title {
 .page-node-6 .zone-content .region-content {
   position: relative; }
 .page-node-6 .zone-header2-wrapper {
-  background: url(/sites/zmedispa.com/files/about-us-slide.jpg);
+  background: url(/sites/limologix.com/files/about-us-slide.png);
   width: 100%;
   background-position: center; }
   .page-node-6 .zone-header2-wrapper .zone {
@@ -372,7 +379,7 @@ h1#page-title {
 .page-node-8 .zone-content .region-content {
   position: relative; }
 .page-node-8 .zone-header2-wrapper {
-  background: url(/sites/zmedispa.com/files/about-us-slide.jpg);
+  background: url(/sites/limologix.com/files/about-us-slide.png);
   width: 100%;
   background-position: center; }
   .page-node-8 .zone-header2-wrapper .zone {
@@ -381,7 +388,7 @@ h1#page-title {
 .page-testimonials .zone-content .region-content {
   position: relative; }
 .page-testimonials .zone-header2-wrapper {
-  background: url(/sites/zmedispa.com/files/about-us-slide.jpg);
+  background: url(/sites/limologix.com/files/about-us-slide.png);
   height: 300px;
   width: 100%;
   background-position: center; }
@@ -396,68 +403,72 @@ h1#page-title {
   margin-bottom: 30px; }
   #region-sidebar-second #block-views-testimonial-block-1 h2.block-title {
     text-transform: lowercase;
-    font-size: 22px;
-    color: #015383; }
+    font-size: 24px;
+    color: #135c91; }
   #region-sidebar-second #block-views-testimonial-block-1 .views-row .views-field-field-name {
     padding-bottom: 0px;
-    color: #015383;
+    color: #fff;
     font-weight: bold; }
   #region-sidebar-second #block-views-testimonial-block-1 .views-row .views-field-field-client-title {
     padding-top: 0px;
     font-style: italic;
-    color: #015383; }
+    color: #fff; }
   #region-sidebar-second #block-views-testimonial-block-1 .views-row .views-field-body {
     padding-top: 60px; }
     #region-sidebar-second #block-views-testimonial-block-1 .views-row .views-field-body .field-content {
-      border-bottom: 3px solid #015383; }
+      border-bottom: 3px solid #fff; }
       #region-sidebar-second #block-views-testimonial-block-1 .views-row .views-field-body .field-content p {
         color: #fff;
         font-size: 12px;
         line-height: 1.5; }
 
-#region-midzone3-first #webform-client-form-7 .webform-component--sub-title p {
+#webform-client-form-7 .webform-contact-subtitle {
+  color: #B3B3B3; }
+#webform-client-form-7 .webform-component-subtitle p {
   text-align: center;
   font-size: 22px;
   text-transform: lowercase; }
 
-#zone-midzone3-wrapper .webform-client-form .webform-component--we-look-forward-to-hearing-from-you {
-  text-align: center;
-  font-size: 28px;
-  margin: 0 0 10px 0; }
-#zone-midzone3-wrapper .webform-client-form .form-actions {
-  float: right;
-  width: 100%;
-  margin: 0 0 10px 0; }
-#zone-midzone3-wrapper .webform-client-form .webform-submit {
-  width: 100%;
-  padding: 15px; }
-#zone-midzone3-wrapper .webform-client-form .webform-component--contact-info {
-  text-align: center;
-  width: 100%; }
-  #zone-midzone3-wrapper .webform-client-form .webform-component--contact-info .webform-contact-phone-wrapper, #zone-midzone3-wrapper .webform-client-form .webform-component--contact-info .webform-contact-address-wrapper, #zone-midzone3-wrapper .webform-client-form .webform-component--contact-info .webform-contact-fax-wrapper, #zone-midzone3-wrapper .webform-client-form .webform-component--contact-info .webform-contact-email-wrapper {
-    float: left;
+#zone-midzone3-wrapper {
+  background: #135C91; }
+  #zone-midzone3-wrapper .webform-client-form .webform-component--we-look-forward-to-hearing-from-you {
+    text-align: center;
+    font-size: 28px;
+    margin: 0 0 10px 0; }
+  #zone-midzone3-wrapper .webform-client-form .form-actions {
+    float: right;
     width: 100%;
-    margin: 0 0 20px 0;
-    border-bottom: 2px dotted #10557E; }
-    #zone-midzone3-wrapper .webform-client-form .webform-component--contact-info .webform-contact-phone-wrapper .webform-contact-phone-title, #zone-midzone3-wrapper .webform-client-form .webform-component--contact-info .webform-contact-phone-wrapper .webform-contact-fax-title, #zone-midzone3-wrapper .webform-client-form .webform-component--contact-info .webform-contact-phone-wrapper .webform-contact-address-title, #zone-midzone3-wrapper .webform-client-form .webform-component--contact-info .webform-contact-phone-wrapper .webform-contact-email-title, #zone-midzone3-wrapper .webform-client-form .webform-component--contact-info .webform-contact-address-wrapper .webform-contact-phone-title, #zone-midzone3-wrapper .webform-client-form .webform-component--contact-info .webform-contact-address-wrapper .webform-contact-fax-title, #zone-midzone3-wrapper .webform-client-form .webform-component--contact-info .webform-contact-address-wrapper .webform-contact-address-title, #zone-midzone3-wrapper .webform-client-form .webform-component--contact-info .webform-contact-address-wrapper .webform-contact-email-title, #zone-midzone3-wrapper .webform-client-form .webform-component--contact-info .webform-contact-fax-wrapper .webform-contact-phone-title, #zone-midzone3-wrapper .webform-client-form .webform-component--contact-info .webform-contact-fax-wrapper .webform-contact-fax-title, #zone-midzone3-wrapper .webform-client-form .webform-component--contact-info .webform-contact-fax-wrapper .webform-contact-address-title, #zone-midzone3-wrapper .webform-client-form .webform-component--contact-info .webform-contact-fax-wrapper .webform-contact-email-title, #zone-midzone3-wrapper .webform-client-form .webform-component--contact-info .webform-contact-email-wrapper .webform-contact-phone-title, #zone-midzone3-wrapper .webform-client-form .webform-component--contact-info .webform-contact-email-wrapper .webform-contact-fax-title, #zone-midzone3-wrapper .webform-client-form .webform-component--contact-info .webform-contact-email-wrapper .webform-contact-address-title, #zone-midzone3-wrapper .webform-client-form .webform-component--contact-info .webform-contact-email-wrapper .webform-contact-email-title {
-      font-size: 25px;
-      font-weight: bold;
-      color: #10557E; }
-    #zone-midzone3-wrapper .webform-client-form .webform-component--contact-info .webform-contact-phone-wrapper .webform-contact-phone, #zone-midzone3-wrapper .webform-client-form .webform-component--contact-info .webform-contact-phone-wrapper .webform-contact-fax, #zone-midzone3-wrapper .webform-client-form .webform-component--contact-info .webform-contact-phone-wrapper .webform-contact-address, #zone-midzone3-wrapper .webform-client-form .webform-component--contact-info .webform-contact-phone-wrapper .webform-contact-email, #zone-midzone3-wrapper .webform-client-form .webform-component--contact-info .webform-contact-address-wrapper .webform-contact-phone, #zone-midzone3-wrapper .webform-client-form .webform-component--contact-info .webform-contact-address-wrapper .webform-contact-fax, #zone-midzone3-wrapper .webform-client-form .webform-component--contact-info .webform-contact-address-wrapper .webform-contact-address, #zone-midzone3-wrapper .webform-client-form .webform-component--contact-info .webform-contact-address-wrapper .webform-contact-email, #zone-midzone3-wrapper .webform-client-form .webform-component--contact-info .webform-contact-fax-wrapper .webform-contact-phone, #zone-midzone3-wrapper .webform-client-form .webform-component--contact-info .webform-contact-fax-wrapper .webform-contact-fax, #zone-midzone3-wrapper .webform-client-form .webform-component--contact-info .webform-contact-fax-wrapper .webform-contact-address, #zone-midzone3-wrapper .webform-client-form .webform-component--contact-info .webform-contact-fax-wrapper .webform-contact-email, #zone-midzone3-wrapper .webform-client-form .webform-component--contact-info .webform-contact-email-wrapper .webform-contact-phone, #zone-midzone3-wrapper .webform-client-form .webform-component--contact-info .webform-contact-email-wrapper .webform-contact-fax, #zone-midzone3-wrapper .webform-client-form .webform-component--contact-info .webform-contact-email-wrapper .webform-contact-address, #zone-midzone3-wrapper .webform-client-form .webform-component--contact-info .webform-contact-email-wrapper .webform-contact-email {
-      font-size: 19px;
-      color: #10557E;
-      font-style: italic;
-      margin: 0 0 15px 0; }
-#zone-midzone3-wrapper .webform-client-form .webform-component--contact-fields {
-  margin-bottom: 0; }
-  #zone-midzone3-wrapper .webform-client-form .webform-component--contact-fields input[type="text"], #zone-midzone3-wrapper .webform-client-form .webform-component--contact-fields input[type="email"], #zone-midzone3-wrapper .webform-client-form .webform-component--contact-fields textarea {
-    background: #e1e1e1;
-    padding: 16px;
+    margin: 0 0 10px 0; }
+  #zone-midzone3-wrapper .webform-client-form .webform-submit {
+    width: 100%;
+    padding: 15px; }
+  #zone-midzone3-wrapper .webform-client-form .webform-component--contact-info {
+    text-align: center;
     width: 100%; }
-  #zone-midzone3-wrapper .webform-client-form .webform-component--contact-fields label {
-    padding: 8px 15px;
-    font-weight: 300;
-    font-size: 15px; }
+    #zone-midzone3-wrapper .webform-client-form .webform-component--contact-info .webform-contact-phone-wrapper, #zone-midzone3-wrapper .webform-client-form .webform-component--contact-info .webform-contact-address-wrapper, #zone-midzone3-wrapper .webform-client-form .webform-component--contact-info .webform-contact-fax-wrapper, #zone-midzone3-wrapper .webform-client-form .webform-component--contact-info .webform-contact-email-wrapper {
+      float: left;
+      width: 100%;
+      margin: 0 0 20px 0;
+      border-bottom: 2px dotted #10557E; }
+      #zone-midzone3-wrapper .webform-client-form .webform-component--contact-info .webform-contact-phone-wrapper .webform-contact-phone-title, #zone-midzone3-wrapper .webform-client-form .webform-component--contact-info .webform-contact-phone-wrapper .webform-contact-fax-title, #zone-midzone3-wrapper .webform-client-form .webform-component--contact-info .webform-contact-phone-wrapper .webform-contact-address-title, #zone-midzone3-wrapper .webform-client-form .webform-component--contact-info .webform-contact-phone-wrapper .webform-contact-email-title, #zone-midzone3-wrapper .webform-client-form .webform-component--contact-info .webform-contact-address-wrapper .webform-contact-phone-title, #zone-midzone3-wrapper .webform-client-form .webform-component--contact-info .webform-contact-address-wrapper .webform-contact-fax-title, #zone-midzone3-wrapper .webform-client-form .webform-component--contact-info .webform-contact-address-wrapper .webform-contact-address-title, #zone-midzone3-wrapper .webform-client-form .webform-component--contact-info .webform-contact-address-wrapper .webform-contact-email-title, #zone-midzone3-wrapper .webform-client-form .webform-component--contact-info .webform-contact-fax-wrapper .webform-contact-phone-title, #zone-midzone3-wrapper .webform-client-form .webform-component--contact-info .webform-contact-fax-wrapper .webform-contact-fax-title, #zone-midzone3-wrapper .webform-client-form .webform-component--contact-info .webform-contact-fax-wrapper .webform-contact-address-title, #zone-midzone3-wrapper .webform-client-form .webform-component--contact-info .webform-contact-fax-wrapper .webform-contact-email-title, #zone-midzone3-wrapper .webform-client-form .webform-component--contact-info .webform-contact-email-wrapper .webform-contact-phone-title, #zone-midzone3-wrapper .webform-client-form .webform-component--contact-info .webform-contact-email-wrapper .webform-contact-fax-title, #zone-midzone3-wrapper .webform-client-form .webform-component--contact-info .webform-contact-email-wrapper .webform-contact-address-title, #zone-midzone3-wrapper .webform-client-form .webform-component--contact-info .webform-contact-email-wrapper .webform-contact-email-title {
+        font-size: 25px;
+        font-weight: bold;
+        color: #fff !important; }
+      #zone-midzone3-wrapper .webform-client-form .webform-component--contact-info .webform-contact-phone-wrapper .webform-contact-phone, #zone-midzone3-wrapper .webform-client-form .webform-component--contact-info .webform-contact-phone-wrapper .webform-contact-fax, #zone-midzone3-wrapper .webform-client-form .webform-component--contact-info .webform-contact-phone-wrapper .webform-contact-address, #zone-midzone3-wrapper .webform-client-form .webform-component--contact-info .webform-contact-phone-wrapper .webform-contact-email, #zone-midzone3-wrapper .webform-client-form .webform-component--contact-info .webform-contact-address-wrapper .webform-contact-phone, #zone-midzone3-wrapper .webform-client-form .webform-component--contact-info .webform-contact-address-wrapper .webform-contact-fax, #zone-midzone3-wrapper .webform-client-form .webform-component--contact-info .webform-contact-address-wrapper .webform-contact-address, #zone-midzone3-wrapper .webform-client-form .webform-component--contact-info .webform-contact-address-wrapper .webform-contact-email, #zone-midzone3-wrapper .webform-client-form .webform-component--contact-info .webform-contact-fax-wrapper .webform-contact-phone, #zone-midzone3-wrapper .webform-client-form .webform-component--contact-info .webform-contact-fax-wrapper .webform-contact-fax, #zone-midzone3-wrapper .webform-client-form .webform-component--contact-info .webform-contact-fax-wrapper .webform-contact-address, #zone-midzone3-wrapper .webform-client-form .webform-component--contact-info .webform-contact-fax-wrapper .webform-contact-email, #zone-midzone3-wrapper .webform-client-form .webform-component--contact-info .webform-contact-email-wrapper .webform-contact-phone, #zone-midzone3-wrapper .webform-client-form .webform-component--contact-info .webform-contact-email-wrapper .webform-contact-fax, #zone-midzone3-wrapper .webform-client-form .webform-component--contact-info .webform-contact-email-wrapper .webform-contact-address, #zone-midzone3-wrapper .webform-client-form .webform-component--contact-info .webform-contact-email-wrapper .webform-contact-email {
+        font-size: 19px;
+        color: #fff !important;
+        font-style: italic;
+        margin: 0 0 15px 0; }
+  #zone-midzone3-wrapper .webform-client-form .webform-component--contact-fields {
+    margin-bottom: 0; }
+    #zone-midzone3-wrapper .webform-client-form .webform-component--contact-fields input[type="text"], #zone-midzone3-wrapper .webform-client-form .webform-component--contact-fields input[type="email"], #zone-midzone3-wrapper .webform-client-form .webform-component--contact-fields textarea {
+      background: #e1e1e1;
+      padding: 16px;
+      width: 100%; }
+    #zone-midzone3-wrapper .webform-client-form .webform-component--contact-fields label {
+      padding: 8px 15px;
+      font-weight: 300;
+      font-size: 15px; }
 
 .zone-content .region-sidebar-second .block-testimonial-block-1 .views-row {
   position: relative;
@@ -525,7 +536,7 @@ h1#page-title {
   margin: 40px 0 0 0; }
 
 #region-user-second {
-  background-color: #DCB55A;
+  background-color: #C32633 !important;
   width: 100%; }
   #region-user-second .block .content p {
     font-size: 10px; }
@@ -701,3 +712,26 @@ h1#page-title {
     background: #e1e1e1;
     padding: 20px;
     width: 100%; }
+
+.zone-midzone-wrapper .region-midzone-first .ready-to-get-going {
+  float: left;
+  font-size: 38px;
+  margin-right: 10px;
+  color: #fff; }
+.zone-midzone-wrapper .region-midzone-first .find-driver-button {
+  background: #C32633;
+  padding: 10px 25px;
+  border-radius: 4px;
+  float: left;
+  color: #fff;
+  font-size: 28px; }
+  .zone-midzone-wrapper .region-midzone-first .find-driver-button a {
+    color: #fff; }
+.zone-midzone-wrapper .region-midzone-first .block {
+  margin: auto;
+  width: 50%; }
+
+.page-node-18 .zone-midzone-wrapper {
+  margin-top: 0; }
+.page-node-18 .zone-content {
+  display: none; }

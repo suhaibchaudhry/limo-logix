@@ -11,7 +11,7 @@
 a:link, a:visited {
   color: #10557E;
 }
- 
+
 h1, h2, h3, h4, h5, h6 {
   font-weight: 500;
 }
@@ -38,7 +38,7 @@ body {
 }
 
 #zone-user-wrapper {
-  background: #DCB55A;
+  background: #C32633;
   line-height: 34px;
   height: 40px;
   z-index: 500;
@@ -48,7 +48,7 @@ body {
     text-align: center;
     float: right;
   }
-  
+
   .block-block-1 p {
     margin-bottom: 0;
   }
@@ -59,9 +59,13 @@ body {
 }
 
 #zone-preface-wrapper {
-  p, h2.block-title {
+  #zone-preface {
+     background: #fff;
+  }
+
+  p, h2 {
     text-align: center;
-    color: #015383;
+    color: #555;
   }
 
   h2.block-title {
@@ -88,9 +92,9 @@ body {
 
       a {
 	@include overline-from-left();
-        background-color: #095480;
+        background-color: #555;
         padding: 8px;
-        color: #fff; 
+        color: #fff;
       }
   }
 }
@@ -98,7 +102,10 @@ body {
 .zone-wrapper {
   .zone-header {
     width: 100%;
-
+    #block-md-slider-front-page-slider {
+      box-shadow: 0 0px 11px rgba(111, 111, 111, 0.3);
+      margin-bottom: 10px;
+    }
     .region-header-first {
       width: 100%;
       margin: 0;
@@ -130,12 +137,13 @@ body {
         li {
           background: transparent;
           a {
+            color: #555;
             border: none;
           }
           a:hover, a:focus {
-            color: #fff;
-            background: #073A66;
-            border-radius: 3px;
+           color: #fff;
+	         background: #c32633;
+           border-radius: 3px;
           }
         }
     }
@@ -143,11 +151,11 @@ body {
 }
 
 .zone-postscript-wrapper {
-  background: #dcb65b;
+  background: #FFF;
     .block-front-page-testimonials-block {
       //margin: 20px 0 0 0;
       h2 {
-        color: #005382;
+        color: #C32633;
         font-size: 50px;
         }
       .views-row {
@@ -155,7 +163,7 @@ body {
         float: left;
         .views-field-field-name {
           font-size: 18px;
-          color: #005382;
+          color: #555;
           font-weight: 400;
         }
         .views-field-field-client-title {
@@ -168,7 +176,7 @@ body {
           float: left;
           padding: 15px;
           color: #fff;
-          background: #005382;
+          background: #555;
           border-radius: 4px;
           margin: 10px 20px 10px 0;
       }
@@ -210,19 +218,19 @@ body {
     }
   }
 //Images should be moved to theme folder unless cpn is used.
-.franchise-icon {
-  background: url(/sites/zmedispa.com/files/franchise-icon.png);  
+.findadriver-icon {
+  background: url(/sites/limologix.com/files/findadriver-icon.png);
 }
 
-.services-icon {
-  background: url(/sites/zmedispa.com/files/services-icon.png);
+.howitworks-icon {
+  background: url(/sites/limologix.com/files/howitworks-icon.png);
 }
 
 .aboutus-icon {
-  background: url(/sites/zmedispa.com/files/aboutus-icon.png);  
+  background: url(/sites/limologix.com/files/aboutus-icon.png);
 }
 
-.franchise-icon, .services-icon, .aboutus-icon {
+.findadriver-icon, .howitworks-icon, .aboutus-icon {
   background-repeat: no-repeat;
   text-indent: -9999px;
   height: 160px;
@@ -236,18 +244,17 @@ body {
   background: #c9c1c1;
     h2 {
       font-size: 50px;
+      color: #fff;
   }
 }
 
 
 
-
-.front {
   .zone-midzone-wrapper {
     margin-top: 20px;
-    background: #ced6e1;
+    background: #212121;
     .region {
-	padding-bottom: 20px;
+	padding: 30px;
     }
     .block-block {
       h2 {
@@ -256,7 +263,6 @@ body {
       }
     }
   }
-}
 
 .learn-more-about-doctors {
   a {
@@ -272,7 +278,7 @@ body {
   .block {
     h2 {
       text-align: center;
-      color: #10557E;
+      color: #fff;
       margin: 0;
     }
   }
@@ -280,7 +286,7 @@ body {
 
 .zone-footer {
   .region-footer-second {
-    .block { 
+    .block {
       text-align: center;
       float: none;
       margin: 0 0 15px 0;
@@ -365,7 +371,7 @@ h1#page-title {
    .region-content {
       position: relative;
    }
-  }  
+  }
   .zone-header2-wrapper {
     background: url(/sites/zmedispa.com/files/immigration-physicals-vaccinations.jpg);
     width: 100%;
@@ -382,7 +388,7 @@ h1#page-title {
    .region-content {
       position: relative;
    }
-  }  
+  }
   .zone-header2-wrapper {
     background: url(/sites/zmedispa.com/files/cosmetic-procedures-slide.jpg);
     width: 100%;
@@ -399,7 +405,7 @@ h1#page-title {
    .region-content {
       position: relative;
    }
-  }  
+  }
   .zone-header2-wrapper {
     background: url(/sites/zmedispa.com/files/low-testosterone-slide.jpg);
     width: 100%;
@@ -417,7 +423,7 @@ h1#page-title {
    .region-content {
       position: relative;
    }
-  }  
+  }
   .zone-header2-wrapper {
     background: url(/sites/zmedispa.com/files/weight-mana-banner.jpg);
     width: 100%;
@@ -434,7 +440,7 @@ h1#page-title {
    .region-content {
       position: relative;
    }
-  }  
+  }
   .zone-header2-wrapper {
     background: url(/sites/zmedispa.com/files/telemedicine-slide.jpg);
     width: 100%;
@@ -451,7 +457,7 @@ h1#page-title {
    .region-content {
       position: relative;
    }
-  }  
+  }
   .zone-header2-wrapper {
     background: url(/sites/zmedispa.com/files/wellness-slide.jpg);
     width: 100%;
@@ -468,7 +474,7 @@ h1#page-title {
    .region-content {
       position: relative;
    }
-  }  
+  }
   .zone-header2-wrapper {
     background: url(/sites/zmedispa.com/files/menopause-slide.jpg);
     width: 100%;
@@ -485,7 +491,7 @@ h1#page-title {
    .region-content {
       position: relative;
    }
-  }  
+  }
   .zone-header2-wrapper {
     background: url(/sites/zmedispa.com/files/family-practice-slide.jpg);
     width: 100%;
@@ -502,9 +508,9 @@ h1#page-title {
    .region-content {
       position: relative;
    }
-  }  
+  }
   .zone-header2-wrapper {
-    background: url(/sites/zmedispa.com/files/about-us-slide.jpg);
+    background: url(/sites/limologix.com/files/about-us-slide.png);
     width: 100%;
     background-position: center;
 
@@ -521,9 +527,9 @@ h1#page-title {
    .region-content {
       position: relative;
    }
-  }  
+  }
   .zone-header2-wrapper {
-    background: url(/sites/zmedispa.com/files/about-us-slide.jpg);
+    background: url(/sites/limologix.com/files/about-us-slide.png);
     width: 100%;
     background-position: center;
 
@@ -538,9 +544,9 @@ h1#page-title {
    .region-content {
       position: relative;
    }
-  }  
+  }
   .zone-header2-wrapper {
-    background: url(/sites/zmedispa.com/files/about-us-slide.jpg);
+    background: url(/sites/limologix.com/files/about-us-slide.png);
     width: 100%;
     background-position: center;
 
@@ -555,9 +561,9 @@ h1#page-title {
    .region-content {
       position: relative;
    }
-  }  
+  }
   .zone-header2-wrapper {
-    background: url(/sites/zmedispa.com/files/about-us-slide.jpg);
+    background: url(/sites/limologix.com/files/about-us-slide.png);
     height: 300px;
     width: 100%;
     background-position: center;
@@ -584,28 +590,28 @@ h1#page-title {
   #block-views-testimonial-block-1 {
     h2.block-title {
       text-transform: lowercase;
-      font-size: 22px;
-      color: #015383;
+      font-size: 24px;
+      color: #135c91;
     }
 
     .views-row {
       .views-field-field-name {
         padding-bottom: 0px;
-        color: #015383;
+        color: #fff;
         font-weight: bold;
       }
 
       .views-field-field-client-title {
         padding-top: 0px;
         font-style: italic;
-        color: #015383;
+        color: #fff;
       }
 
       .views-field-body {
         padding-top: 60px;
 
         .field-content {
-          border-bottom: 3px solid #015383;
+          border-bottom: 3px solid #fff;
 
           p {
             color: #fff;
@@ -618,19 +624,22 @@ h1#page-title {
   }
 }
 
-#region-midzone3-first {
-  #webform-client-form-7 {
-    .webform-component--sub-title {
-      p {
-        text-align: center;
-        font-size: 22px;
-        text-transform: lowercase;
-      }
+#webform-client-form-7 {
+  .webform-contact-subtitle {
+    color: #B3B3B3;
+  }
+  .webform-component-subtitle {
+    p {
+      text-align: center;
+      font-size: 22px;
+      text-transform: lowercase;
     }
   }
 }
 
+
 #zone-midzone3-wrapper {
+  background: #135C91;
   .webform-client-form {
     .webform-component--we-look-forward-to-hearing-from-you {
       text-align: center;
@@ -658,11 +667,11 @@ h1#page-title {
           .webform-contact-phone-title, .webform-contact-fax-title, .webform-contact-address-title, .webform-contact-email-title {
             font-size: 25px;
             font-weight: bold;
-            color: #10557E;
+            color: #fff !important;
           }
           .webform-contact-phone, .webform-contact-fax, .webform-contact-address, .webform-contact-email {
             font-size: 19px;
-            color: #10557E;
+            color: #fff !important;
             font-style: italic;
             margin: 0 0 15px 0;
           }
@@ -681,7 +690,7 @@ h1#page-title {
         font-size: 15px;
     }
     }
-    
+
   }
 }
 
@@ -729,7 +738,7 @@ h1#page-title {
         border-radius: 2px;
         color: #fff;
         display: block;
-      }    
+      }
     }
     .views-field-field-service-image {
       img {
@@ -761,7 +770,7 @@ h1#page-title {
 
 //Menu
 
-.zone-branding { 
+.zone-branding {
   .region-menu {
     margin: 10px;
       .block-superfish {
@@ -800,9 +809,9 @@ h1#page-title {
 }
 
 #region-user-second {
-  background-color: #DCB55A;
+  background-color: #C32633 !important;
   width: 100%;
-  
+
     .block {
       .content {
         p {
@@ -865,7 +874,7 @@ h1#page-title {
 }
 }
 
-.node-type-locations { 
+.node-type-locations {
   .zone-content {
     .region-content {
     position: relative;
@@ -904,7 +913,7 @@ h1#page-title {
               }
         }
       }
-  } 
+  }
  }
 }
 
@@ -1065,5 +1074,40 @@ h1#page-title {
       background: #e1e1e1;
       padding: 20px;
       width: 100%;
+  }
+}
+
+.zone-midzone-wrapper {
+  .region-midzone-first {
+    .ready-to-get-going {
+      float: left;
+      font-size: 38px;
+      margin-right: 10px;
+      color: #fff;
+    }
+    .find-driver-button {
+      background: #C32633;
+      padding: 10px 25px;
+      border-radius: 4px;
+      float: left;
+      color: #fff;
+      font-size: 28px;
+        a {
+        color: #fff;
+      }
+    }
+      .block {
+        margin: auto;
+        width: 50%;
+      }
+  }
+}
+
+.page-node-18 {
+.zone-midzone-wrapper {
+  margin-top: 0;  
+}
+  .zone-content {
+    display: none;
   }
 }

@@ -1111,3 +1111,40 @@ h1#page-title {
     display: none;
   }
 }
+
+.page-node-55 table {
+	width: auto !important;
+	text-align: center;
+	margin: 0 auto;	
+	thead {
+		background-color: #187DB9;
+		color: #fff;
+		text-transform: capitalize;
+		font-size: 15px;
+		
+		tr {
+			th {
+				border: 2px solid #fff;
+				text-align: center;
+			}
+		}	
+	}
+
+	tbody {
+		color: #0E4667;
+		 font-size: 15px;
+
+		tr {
+			&:nth-child(even) {
+				background-color: #c8e1f7;
+			}
+			&:nth-child(odd) {
+				background-color: #e6f0f9;
+			}
+			
+			td {
+				border: 2px solid #fff;
+			}
+		}
+	}
+}
